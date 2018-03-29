@@ -16,7 +16,6 @@ module.exports = {
       resolve: `gatsby-plugin-google-remarketing`,
       options: {
         google_conversion_id: "YOUR_GOOGLE_CONVERSION_ID",
-        google_custom_params: "YOUR_GOOGLE_CUSTOM_PARAMS",
         google_remarketing_only: "IS_REMARKETING_ONLY",
         // Puts tracking script in the head instead of the body
         head: false,
