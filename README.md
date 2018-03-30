@@ -1,4 +1,4 @@
-# https://github.com/mathieuforest/gatsby-plugin-google-remarketing
+# gatsby-plugin-google-remarketing
 
 Easily add Google Remarketing tag to your Gatsby site.
 
