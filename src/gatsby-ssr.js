@@ -25,5 +25,5 @@ exports.onRenderBody = ({ setHeadComponents, setPostBodyComponents }, pluginOpti
       </noscript>
     ])
   }
-  return null
+  return null;
 }
