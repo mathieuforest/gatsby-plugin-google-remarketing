@@ -7,9 +7,9 @@ exports.onRenderBody = ({ setHeadComponents, setPostBodyComponents }, pluginOpti
       <script type="text/javascript" key={`gatsby-plugin-google-remarketing-variables`} dangerouslySetInnerHTML={{
         __html: `
             /* <![CDATA[ */
-            var google_conversion_id = ${pluginOptions.google_conversion_id}
+            var google_conversion_id = "${pluginOptions.google_conversion_id}";
             var google_custom_params = window.google_tag_params;
-            var google_remarketing_only = ${pluginOptions.google_remarketing_only}
+            var google_remarketing_only = "${pluginOptions.google_remarketing_only}";
             /* ]]> */
         `
       }}>
